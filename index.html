@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Padukuhan Kalijoho</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========================================================= -->
+<!-- HEADER & NAVBAR                                            -->
+<!-- ========================================================= -->
+<header class="site-header">
+  <div class="navbar container">
+    <a href="#beranda" class="navbar__brand">Padukuhan <span>Kalijoho</span></a>
+
+    <!-- Toggle menu mobile (tanpa JavaScript, pakai checkbox hack) -->
+    <input type="checkbox" id="nav-toggle" class="navbar__toggle-input">
+    <label for="nav-toggle" class="navbar__toggle-label" aria-label="Buka menu navigasi">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="navbar__menu">
+      <a href="#beranda" class="navbar__link">Beranda</a>
+      <a href="#fokus1" class="navbar__link">Hidroponik</a>
+      <a href="#fokus2" class="navbar__link">KWT Kalijoho</a>
+      <a href="#fokus3" class="navbar__link">Gamelan</a>
+      <a href="#fokus4" class="navbar__link">Gotong Royong</a>
+      <a href="#kontak" class="navbar__link navbar__link--cta">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ========================================================= -->
+  <!-- HERO SECTION                                               -->
+  <!-- ========================================================= -->
+  <section id="beranda" class="hero">
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Selamat Datang di Website Resmi</p>
+      <h1 class="hero__title">
+        Padukuhan <span class="hero__title-accent">Kalijoho</span>
+      </h1>
+      <p class="hero__subtitle">
+        Informasi singkat tentang Padukuhan Kalijoho dan empat program
+        unggulan yang ada di dalamnya.
+        Padukuhan Kalijoho merupakan bagian dari Desa Argosari. 
+        Padukuhan Kalijoho berada di sebelah selatan dari pusat Desa, 
+        dengan luas wilayah 42.95 ha, secara administrasi wilayah 
+        Padukuhan Kalijoho terbagi menjadi 6 Rukun Tetangga/RT 
+        yaitu RT 001, 002, 003, 004, 005, 006.
+      </p>
+      <a href="#fokus1" class="btn btn--primary hero__cta">Lihat Program Padukuhan Kalijoho →</a>
+    </div>
+
+    <!-- Elemen dekoratif signature: garis terasering sawah -->
+    <svg class="hero__divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,64 C240,110 480,10 720,48 C960,86 1200,20 1440,64 L1440,120 L0,120 Z" class="hero__divider-shape hero__divider-shape--1"></path>
+      <path d="M0,90 C240,50 480,120 720,90 C960,60 1200,110 1440,80 L1440,120 L0,120 Z" class="hero__divider-shape hero__divider-shape--2"></path>
+    </svg>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION UTAMA 1: HIDROPONIK (satu foto)                    -->
+  <!-- ========================================================= -->
+  <section id="fokus1" class="section section--alt">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Fokus Program</p>
+        <h2 class="section-heading__title">Pemanfaatan Hidroponik</h2>
+        <p class="section-heading__desc">
+          Hidroponik menjadi ciri khas Padukuhan Kalijoho, sangat bermanfaat
+          bagi kegiatan pertanian yang ada di lingkup masyarakat Kalijoho.
+          <!-- GANTI: tambahkan detail cerita/aktivitas Hidroponik di sini -->
+        </p>
+      </div>
+
+      <div class="single-photo">
+        <article class="product-card">
+          <div class="product-card__image-wrap">
+            <img src="image/hidroponik.jpeg" alt="Kebun Hidroponik Padukuhan Kalijoho" class="product-card__image" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__badge">Program Unggulan</span>
+            <h3 class="product-card__title">Kebun Hidroponik Kalijoho</h3>
+            <p class="product-card__desc">
+              <!-- GANTI: deskripsi singkat kegiatan Hidroponik jika diperlukan -->
+              Warga memanfaatkan sistem hidroponik untuk menanam sayuran secara
+              efisien, mendukung ketahanan pangan sekaligus penghijauan lingkungan.
+              Selain itu untuk pemanfaatan saat dibuatnya hidroponik di Padukuhan Kalijoho
+              menjadi salah satu icon dari Kalijoho itu sendiri dan juga 
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION UTAMA 2: KELOMPOK WANITA TANI (KWT)                -->
+  <!-- ========================================================= -->
+  <section id="fokus2" class="section section--kwt">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Fokus Program</p>
+        <h2 class="section-heading__title">Kelompok Wanita Tani (KWT) Kalijoho</h2>
+        <p class="section-heading__desc">
+          KWT Padukuhan Kalijoho aktif memproduksi makanan lokal unggulan sebagai
+          upaya meningkatkan perekonomian dan kemandirian pangan warga.
+          <!-- GANTI: tambahkan detail cerita/aktivitas KWT di sini -->
+        </p>
+      </div>
+
+      <div class="product-grid">
+
+        <!-- Kartu Produk: Pangsit -->
+        <article class="product-card">
+          <div class="product-card__image-wrap">
+            <img src="image/Pangsit.jpeg" alt="Pangsit Goreng produk KWT Kalijoho" class="product-card__image" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__badge">Produk Unggulan</span>
+            <h3 class="product-card__title">Pangsit Goreng</h3>
+            <p class="product-card__desc">
+              <!-- GANTI: deskripsi singkat produk Pangsit jika diperlukan -->
+              Pangsit goreng renyah buatan KWT Kalijoho, diolah dari tepung, tapioka,
+              tahu, bawang putih, dan bumbu rempah pilihan untuk cita rasa gurih yang khas.
+            </p>
+          </div>
+        </article>
+
+        <!-- Kartu Produk: Onde-onde -->
+        <article class="product-card">
+          <div class="product-card__image-wrap">
+            <img src="image/OndeOnde.jpeg" alt="Onde-onde Ketawa produk KWT Kalijoho" class="product-card__image" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__badge">Produk Unggulan</span>
+            <h3 class="product-card__title">Onde-onde Ketawa</h3>
+            <p class="product-card__desc">
+              <!-- GANTI: deskripsi singkat produk Onde-onde jika diperlukan -->
+              Onde-onde ketawa taburan wijen dengan tekstur renyah di luar dan lembut
+              di dalam, dibuat dari tepung, gula pasir, telur, dan margarin pilihan.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION UTAMA 3: KESENIAN GAMELAN (satu foto)              -->
+  <!-- ========================================================= -->
+  <section id="fokus3" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Fokus Program</p>
+        <h2 class="section-heading__title">Kesenian Gamelan</h2>
+        <p class="section-heading__desc">
+          Padukuhan Kalijoho masih melestarikan budaya sampai saat ini, ditandai
+          dengan kelestarian kesenian gamelan dengan slogan
+          "SALAM BUDAYA, LESTARI BUDAYAKU".
+          <!-- GANTI: tambahkan detail cerita/aktivitas Gamelan di sini -->
+        </p>
+      </div>
+
+      <div class="single-photo">
+        <article class="product-card">
+          <div class="product-card__image-wrap">
+            <!-- GANTI: ganti div placeholder di bawah ini dengan-->
+                 <img src="image/gamelan.jpeg" alt="Kesenian Gamelan Kalijoho" class="product-card__image"> 
+            <div class="product-card__image-placeholder">
+              <span>Foto Kesenian<br>Gamelan</span>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__badge">Program Budaya</span>
+            <h3 class="product-card__title">Gamelan Kalijoho</h3>
+            <p class="product-card__desc">
+              <!-- GANTI: deskripsi singkat kegiatan Gamelan jika diperlukan -->
+               Padukuhan Kalijoho masih melestarikan budaya sampai saat ini, ditandai
+          dengan kelestarian kesenian gamelan dengan slogan
+          "SALAM BUDAYA, LESTARI BUDAYAKU".
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION UTAMA 4: GOTONG ROYONG (satu foto)                 -->
+  <!-- ========================================================= -->
+  <section id="fokus4" class="section section--alt">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Fokus Program</p>
+        <h2 class="section-heading__title">Gotong Royong</h2>
+        <p class="section-heading__desc">
+          Selain program-program di atas, Padukuhan Kalijoho juga masih menjaga
+          budaya gotong royong, yang rutin dilakukan di tiap-tiap RT maupun
+          dalam skala padukuhan.
+          <!-- GANTI: tambahkan detail cerita/aktivitas Gotong Royong di sini -->
+        </p>
+      </div>
+
+      <div class="single-photo">
+        <article class="product-card">
+          <div class="product-card__image-wrap">
+            <img src="image/gotongroyong.jpeg" alt="Kegiatan Gotong Royong warga Kalijoho" class="product-card__image" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__badge">Program Sosial</span>
+            <h3 class="product-card__title">Gotong Royong Warga</h3>
+            <p class="product-card__desc">
+              <!-- GANTI: deskripsi singkat kegiatan Gotong Royong jika diperlukan -->
+              Kegiatan kerja bakti dan pembangunan fasilitas warga yang dilakukan
+              secara bergotong royong di tiap-tiap RT Padukuhan Kalijoho.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========================================================= -->
+<!-- FOOTER                                                     -->
+<!-- ========================================================= -->
+<footer id="kontak" class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__col">
+      <p class="site-footer__team">
+        <!-- GANTI: nama tim/kelompok KKN -->
+        Tim KKN 01 Internasional Service Learning Padukuhan Kalijoho Universitas Kristen Duta Wacana
+      </p>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="site-footer__heading">Kontak</p>
+      <ul class="site-footer__contact">
+        <li><!-- GANTI: alamat email --> email@contoh.com</li>
+        <li><!-- GANTI: nomor telepon/WA --> +62 8xx-xxxx-xxxx</li>
+        <li><!-- GANTI: alamat lokasi --> Padukuhan Kalijoho, Kalurahan Argosari, Kabupaten Sedayu, Daerah Istimewa Yogyakarta</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>&copy; <span id="tahun">2026</span> KKN 01 Internasional Service Learning Padukuhan Kalijoho Universitas Kristen Duta Wacana. Hak cipta dilindungi.</p>
+  </div>
+</footer>
+
+<!-- Skrip kecil opsional: perbarui tahun copyright secara otomatis -->
+<script>
+  document.getElementById('tahun').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
